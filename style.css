@@ -15,6 +15,10 @@ font-family: 'Oswald', sans-serif;
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url("./images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,left bottom;
+    
 }
 /* nav style start */
 nav{
@@ -69,9 +73,153 @@ span{
     width: 584px;
     height: 676px;
 }
+.benar-content{
+    max-width: 500px;
+}
 .benar-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 30px 0px 150px;
+}
+   
+.benar-getin{
+    color:#474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.benar-heading{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    
+    }
+.benar-discription{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.section{
+    width: 1140px;
+height: 550px;
+border-radius: 10px;
+border-radius: 10px;
+background: #FFF8F3;
+margin:auto;
+margin-top: 130px;
+
+}
+.secction1-heading  {
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.discription{
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+}
+.date-time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   width: 80%;
+   margin: 0 auto;
+   padding-top: 10px;
+   gap: 30px;
+}
+.what-head h2{
+    text-align: center;
+}
+.what-head p {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+.cards{
+    width: 267px;
+height: 377px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+.card-do{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.summary-head{
+    text-align: center;
+}
+.sum-info{
+    display: flex;
 }
 
+.resume-main{
+    margin-top: 50px;
+}
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Resume-section{
+    width: 511px;
+}
+.Resume-heading{
+    text-align: center;
+}
+.My-Experience{
+    width: 511px;
+}
+.downlod-btn{
+width: 150px;
+height: 44px;
+color: #070606;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
+.batn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 248, 243, 1);
+}
+.msg-me{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.msg-me input{
+    padding: 10px;
+    font-size: 14px;
+
+}
+.Lets-Connect-section{
+    width: 562px;
+}
+.batn-style{
+    width: 130px;
+height: 44px;
+border-radius: 5px;
+background: #FD6E0A;
+font-size: 18px;
+color: white;
+border: none;
+}
